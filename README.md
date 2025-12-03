@@ -35,13 +35,21 @@ The website looks nice with blue colors and cards everywhere.
 # What I Did in CSS
 
 -Reset all margins/paddings with * selector
+
 -Used flexbox for navbar, forms, instructors, reviews
+
 -Used CSS Grid for popular categories (6 columns x 2 rows)
+
 -Added box-shadows to make cards look 3D
+
 -Made gradient background for intro section
+
 -Created star ratings with gold color (#f4c150)
+
 -Added hover effects for links and FAQ arrows
+
 -Used border-radius 20px everywhere for rounded corners
+
 -Made responsive navbar with proper spacing
 
 # Design Things I Added
