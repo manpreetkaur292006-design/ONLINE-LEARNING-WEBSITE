@@ -26,10 +26,15 @@ The website looks nice with blue colors and cards everywhere.
 # What I Did in HTML
 
 -Made proper HTML structure with head, body, header, main, footer
+
 -Used div containers everywhere for sections
+
 -Added images for courses, teachers, reviews with alt text
+
 -Created forms for search and newsletter
+
 -Used Google Fonts and Font Awesome for nice fonts and stars
+
 -Made select dropdowns and checkbox for course filters
 
 # What I Did in CSS
