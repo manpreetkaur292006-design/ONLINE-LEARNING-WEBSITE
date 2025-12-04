@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header id="nav_bar" class="container">
+        <h1>Learnify</h1>
+        <input type="text" placeholder="    Search courses, topics...                                             🔍 ">
+        <button id="nav-button-1">Login</button>
+        <button id="nav-button-2">Sign Up</button>
+    </header>
+    <main>
+        <div id="intro-div" class="container">
+            <h1>Unlock Your Potential with Online Learning</h1>
+            <p>Join thousands of learners and access top-rated courses from expert instructors. Learn anytime, anywhere.</p>
+            <div id="intro-form">
+                <input type="text" placeholder="    What do you want to learn?">
+                <button>Find Courses</button>
+            </div>
+        </div>
+        <div id="main-div" class="container">
+            <h2>Popular Categories</h2>
+            <div id="popular-categories">
+                <div>💻 <br> Development</div>
+                <div>🎨 <br> Design</div>
+                <div>📈 <br> Business</div>
+                <div>🗣️ <br> Languages</div>
+                <div>📚 <br> Academics</div>
+                <div>🎵 <br> Music</div>
+                <div>🧘 <br> Lifestyle</div>
+                <div>🧪 <br> Science</div>
+            </div>
+        </div>
+        <div id="main-feature">
+            <div class="feature-header">
+                <h2>Featured Courses</h2>
+                <div class="feature-filters">
+                    <label for="Level">Level :</label>
+                    <select name="Level" id="Level">
+                        <option value="All">All</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                    <label for="Price">Price :</label>
+                    <select name="Price" id="Price">
+                        <option value="All">All</option>
+                        <option value="Free">Free</option>
+                        <option value="Paid">Paid</option>
+                    </select>
+                    <input type="checkbox" id="mycheckbox">
+                    <label for="mycheckbox">Certificate</label>
+                </div>
+            </div>
+        <div id="featured-courses" class="container">
+            <div class="feature-div">
+                <img src="./table.png" alt="Modern-web-dev-Bootcamp" class="courses">
+                <br>
+                <p>
+                    Modern Web Development 
+                <br>
+                bootcamp
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> (4.8)
+                </div> 
+                <p class="price">$49</p>    
+            </div>
+            <div class="feature-div">
+                <img src="person2.png" alt="Graphic-design-masterclass" class="courses">
+                <br>
+                <p>Graphic Design Masterclass</p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> (4.5)
+                </div>
+                <br>
+                <p class="price">$39</p>
+            </div>
+            <div class="feature-div">
+                <img src="./laptop.png" alt="Business-Analytics" class="courses">
+                <br>
+                <p>
+                Business Analytics Fundamentals
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> (4.9)
+                </div>
+                <p class="price">Free</p>          
+            </div>
+            <div class="feature-div">
+                <img src="./person2.png" alt="Spanish" class="courses">
+                <br>
+                <p>
+                    Spanish for Beginners
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> (4.9)
+                </div>
+                <br>
+                <p class="price">$29</p>
+            </div>
+        </div>
+        </div>
+        <div id="main-instructor">
+        <h2>Meet Our Instructors</h2>
+        <div id="instructors" class="container">
+            <div>
+                <img src="./john-carter.png" alt="John-carter" class="instruct">
+                <h3>John Carter</h3>
+                <p class="p1">Web developer</p>
+                <p>10+ years teaching full-stack development and Javascript frameworks.</p>
+            </div>
+            <div>
+                <img src="./lisa-wong.png" alt="lisa-wong" class="instruct">
+                <h3>Lisa Wong</h3>
+                <p class="p1">Graphic Designer</p>
+                <p>Award-winning designer with a passion for creative education.</p>
+            </div>
+            <div>
+                <img src="./sayed.png" alt="Ahmed EL-Sayed" class="instruct">
+                <h3>Ahmed EL-Sayed</h3>
+                <p class="p1">Business Analyst</p>
+                <p>Expert in data-driven business strategies and analytics tools.</p>
+            </div>
+            <div>
+                <img src="./marie-gracia.png" alt="Maria-garcia" class="instruct">
+                <h3>Maria Garcia</h3>
+                <p class="p1">Language Coach</p>
+                <p>Specialist in immersive language learning for all ages.</p>
+            </div>
+        </div>
+        </div>
+        <div id="main-review">
+        <h2>What Our Students Say</h2>
+        <div id="student-reviews" class="container">         
+            <div class="review">
+                <div class="review-img-info-main">
+                <div class="review-img">
+                <img src="./reviewer1.png" alt="Anna-Smith" class="reviewer">
+                </div>
+                <div class="reviewer-info">
+                    <p class="reviewer-name">Anna Smith</p>
+                    <p class="role">Marketing Student</p>
+                </div>
+                </div>
+                <div class="review-text">
+                <p class="review-text">"The courses are well-structured and easy to follow. I landed my first jonb thanks to Learnfy!"</p>
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-img-info-main">
+                <div class="review-img">
+                <img src="./reviewer2.png" alt="Mark-Lee" class="reviewer">
+                </div>
+                <div class="reviewer-info">
+                    <p class="reviewer-name">Mark Lee</p>
+                    <p class="role">Entrepreneur</p>
+                </div>
+                </div>
+                <div class="review-text">
+                <p>"Great instructors and a huge variety of topics. The platform is intuitive and responsive."</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="main-article">
+            <h2>Latest Articles</h2>
+        <div id="articles" class="container">
+            <div>
+                <img src="./Article1.png" alt="Tips" class="article">
+                <div class="article-text">
+                    <h4>5 Tips to Boost Your Online Learning</h4>
+                    <p id="article-date">June 2024 . 5 min read</p>
+                    <p>Discover actionable strategies to stay motivated and productive in your online courses.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div>
+                <img src="./Article2.png" alt="Skills" class="article">
+                <div class="article-text">
+                    <h4>Top 10 In-Demand Skills in <br> 2024</h4>
+                    <p id="article-date">May 2024 . 7 min read</p>
+                    <p>Stay ahead in your career by mastering these tranding skills this year.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div>
+                <img src="./Article3.png" alt="Choice" class="article">
+                <div class="article-text">
+                    <h4>How to Choose the Right <br> Course</h4>
+                    <p id="article-date">April 2024 . 4 min read</p>
+                    <p>A step-by-step guide to selecting courses that match your goals and interests.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="main-FAQs">
+        <h2>Frequently Asked Questions</h2>
+        <div id="FAQs" class="container">
+            <div>How do I enroll in a course?</div>
+            <div>Are there any free courses?</div>
+            <div>Do I get a certificate after completion?</div>
+            <div>Can I access courses on mobile?</div>
+        </div>
+        </div>
+        <div id="newsletter" class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates, courses launches, and exclusive offers straight to your inbox.</p>
+            <div id="newsletter-form">
+             <input type="text" placeholder="    Your email address"> 
+             <button>Subscribe</button>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="container">
+        <div id="main-footer-div">
+        <div>
+            <h2>Learnify</h2>
+            <p>
+                Empowering Learners worldwide 
+                <br>
+                with quality online education.
+            </p>
+        </div>
+        <div>
+            <h5>Links</h5>
+            <div id="links-hover">
+                <p>Courses</p>
+                <p>Instructors</p>
+                <p>Blog</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+        <div>
+            <h5>Contact</h5>
+            <p>
+                Email: support@learnify.com
+                <br>
+                Phone: +1 234 567 890
+                <br>
+                123 Learning St,Edutown
+            </p> 
+        </div>
+        <div>
+            <h5>Follow Us</h5>
+            <p id="footer-icons">🐦 📘 📸 💼</p>
+        </div>
+        </div>
+        </div>
+        <p id="copywrite">
+            © 2024 Learnify. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
